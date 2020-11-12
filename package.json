@@ -1,0 +1,29 @@
+{
+  "name": "practicing-bootstrap-edi",
+  "version": "1.0.0",
+  "description": "This is my private project with bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thirdknight/practicing-bootstrap-edi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thirdknight/practicing-bootstrap-edi/issues"
+  },
+  "homepage": "https://github.com/thirdknight/practicing-bootstrap-edi#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}

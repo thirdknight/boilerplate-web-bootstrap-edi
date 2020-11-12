@@ -1,0 +1,153 @@
+body {
+}
+
+// Headings
+h1 {
+  
+}
+
+h2 {
+  //  example
+ // @include vr($displaytype, 2rem);
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+
+hgroup {
+
+}
+
+p {
+  margin-bottom: 1.5em;
+  &:last-child {
+    margin-bottom: 0; // prevent double-margin bottom (when wrapped in div) -> remove if not needed
+  }
+}
+
+
+// Links
+//
+// The order of link states are based on Eric Meyer's article:
+// http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
+a {
+  text-decoration: none;
+  color: $washed_black;
+  &:link {
+    // color: $color_link;
+  }
+
+  &:visited {
+    // color: $color_visited;
+  }
+
+  &:hover, &:focus {
+
+  }
+
+  &:active, &.active {
+
+  }
+  &.active {
+
+  }
+}
+
+
+// Lists
+
+ul, ol {
+  padding: 0 1em;
+  // margin: $paragraph-trailer 0;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+
+ul {
+
+}
+
+ol {
+
+}
+
+li {
+
+}
+
+
+// Misc.
+
+hr {
+  height: 1px;
+  border: 1px solid #666;
+  padding-bottom: -1px;
+  margin: 1em 0;
+}
+
+strong,
+b {
+  font-weight: $bold;
+}
+
+em {
+  font-style: italic;
+}
+
+// Remove text-shadow in selection highlight: h5bp.com/i
+// These selection declarations have to be separate
+// ::-moz-selection { background: $color_selection_bg; color: $color_selection; text-shadow: none; }
+// ::selection { background: $color_selection_bg; color: $color_selection; text-shadow: none; }
+
+
+//////////////////////////
+// placeholder
+//////////////////////////
+
+// @mixin placeholder-style {
+//   //styles go here to ensure same style across platforms
+// }
+
+// ::-webkit-input-placeholder {
+//   @include placeholder-style;
+// }
+// :-moz-placeholder {
+//   opacity: 1;
+//   @include placeholder-style;
+// }
+
+// ::-moz-placeholder {
+//   opacity: 1;
+//   @include placeholder-style;
+// }
+
+// :-ms-input-placeholder {
+//   @include placeholder-style;
+// }
+
+figcaption {
+
+}
+
+blockquote {
+
+}
